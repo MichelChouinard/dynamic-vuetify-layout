@@ -1,4 +1,7 @@
 # my-dynamic-layout
+Based on [Layouts with Vue.js - How to Create Dynamic Layout Components](https://markus.oberlehner.net/blog/dynamic-vue-layout-components/) 
+
+
 
 ## Project setup
 ```
