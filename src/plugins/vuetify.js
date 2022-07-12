@@ -5,19 +5,22 @@ import fr from 'vuetify/lib/locale/fr'
 Vue.use(Vuetify)
 
 export default new Vuetify({
+  icons: {
+    iconfont: 'mdiSvg'
+  },
   theme: {
     options: {
       customProperties: true
     },
     themes: {
       light: {
-        primary: '#ee44aa',
-        secondary: '#424242',
-        accent: '#82B1FF',
-        error: '#FF5252',
-        info: '#2196F3',
-        success: '#4CAF50',
-        warning: '#FFC107'
+        primary: '#325d88',
+        secondary: '#79858b',
+        accent: '#009688',
+        error: '#B71C1C',
+        warning: '#f47c3c',
+        info: '#00bcd4',
+        success: '#1B5E20'
       }
     }
   },

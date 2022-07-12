@@ -7,7 +7,11 @@
       <!--  -->
     </v-navigation-drawer>
 
-    <v-app-bar app>
+    <v-app-bar
+      app
+      dark
+      elevation="0"
+    >
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title>Application</v-toolbar-title>
     </v-app-bar>
@@ -16,15 +20,15 @@
       <slot/>
     </v-main>
     <v-footer
-      padless
+      :padless="false"
       app
+      color="white"
+      class="d-flex justify-center"
     >
-      <v-col
-        class="text-center"
-        cols="12"
+      <div
       >
         {{ new Date().getFullYear() }} — <strong>footer LayoutDefault</strong>
-      </v-col>
+      </div>
     </v-footer>
   </v-app>
 </template>

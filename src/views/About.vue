@@ -18,6 +18,7 @@
         voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
         amet.
       </p>
+      <router-link to="/">Home</router-link>
     </div>
   </layout>
 </template>

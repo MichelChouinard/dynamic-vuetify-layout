@@ -17,6 +17,7 @@
         clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
         amet.
       </p>
+      <router-link to="/about">About</router-link>
     </div>
   </layout>
 </template>
